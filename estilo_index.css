@@ -1,0 +1,302 @@
+
+body{
+	background-color: #000000;
+    background-image:url("Logo Bongo bl.png");
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    overflow-x: hidden;
+}
+
+
+
+
+
+.Logochico {
+     position: absolute;
+     height: 80px;
+     width: 90px;
+}
+
+
+.redes {
+	position: absolute;
+    
+}
+section{
+	color: white;
+	
+}
+
+footer{
+	color: white;
+	background-color: #232323;
+    border-radius: 0.5%;
+    user-select: none;
+}
+
+
+aside{
+    color: white;
+}
+
+ .h1_inicio {
+ position: relative;
+ text-align: center;
+ font-family: Nexa-Heavy;
+ Font-weight: 10;
+ line-height: 2;
+ font-size: 50px;
+ color: #FF5500;
+
+
+ }
+
+.h2_inicio {
+    font-family: Nexa-ExtraLight;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+
+
+p {
+    font-family: sans-serif;
+    margin: 10px;
+   
+}
+
+ 
+
+.nav_li  {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+    font-family: Nexa-ExtraLight;
+
+}
+
+.nav_li i {
+
+    padding: 6px;	
+}
+ 
+.nav {
+	height: 80px;
+	margin-top: -15px;
+	display: block;
+	background: linear-gradient(to top, #000000, #151515);
+    
+}.nav a {
+	text-decoration: none;
+	color: white;
+    user-select: none;
+}
+.nav_li:hover i {
+
+	color: #000000; 
+}
+.nav_li:hover> a {
+	color: grey;
+}
+
+.nav_ul {
+	box-sizing: content-box;
+	text-align: right;
+    padding: 15px;         
+}
+
+
+.imagen1_inicio {
+     height: 400px;
+     min-width: 420px;
+     margin: 10px;
+     width: 250px; 
+     object-fit: cover;
+ }    
+.imagen2_inicio{
+     height: 400px;
+     min-width: 420px;
+     margin: 10px;
+     width: 250px;
+     object-fit: cover;
+} 
+.imagen3_inicio{ 
+     height: 400px;
+     min-width: 420px;
+     margin: 10px;
+     width: 250px;
+     object-fit: cover;
+    
+}
+
+.imagenes_inicio {
+	position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    object-fit: cover;
+    
+   
+}
+
+
+.contenedor_p_incio {
+	float: left;
+}
+
+.footer_inicio {
+   position: relative;
+   margin-top: auto;
+   font-family: sans-serif;
+   padding: 10px;
+
+}
+
+.h3_inicio{
+    position: relative;
+    text-align: center;
+}
+
+.p_inicio {
+       
+       float: left;
+
+}
+
+.h2_inicio_2{
+    text-align: center;
+    padding: 30px;
+    font-family: Nexa-ExtraLight;
+}
+
+.barra_inicio {
+     Background:linear-gradient(to left, #000000, #FF5500);
+     height: 2.5px;
+    
+}
+
+
+.Equipos_contenedor {
+   
+   display: flex;
+   justify-content: center;
+   justify-content: space-evenly;
+   margin: 10px;
+   padding: 35px;
+   color: #FF5500;
+   font-family: Nexa-ExtraLight;
+   
+}
+
+.Equipos_contenedor p {
+    color: white;
+    margin-top: 40px;
+}
+
+
+.Microfonos_contenedor {
+    background-color:#232323;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+}
+
+.Microfonos_imagen {
+    object-fit: contain;
+     height: 350px;
+     width: 450px;
+     object-position: 50px -50px;
+}
+
+.Camaras_contenedor {
+    background-color:#232323;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+}
+
+
+
+.Camaras_imagen {
+    object-fit: contain;
+     height: 350px;
+     width: 350px
+}
+
+
+
+.Auriculares_contenedor {
+    background-color:#232323;
+    height: 450px;
+    width: 350px;
+    text-align: center;
+}
+
+.Auriculares_imagen {
+    object-fit: contain;
+     height: 550px;
+     width: 550px;
+     object-position: -100px -5px ;
+}
+
+
+
+.p_contactate {
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    background-color: #FF5500;
+    
+}
+
+.p_contactate: hover> a {
+     color: white;
+     font-size: 18px;
+
+}
+
+.aquí {
+    color: white;
+    font-size: 18px;
+
+}
+
+
+.Logochico_footer {
+   width: 7%;
+   height: 7%;
+  margin: -10px;
+   margin-top: 5px;
+   margin-bottom: -15px;
+}
+
+.footer_logo {
+   text-align: center;
+   margin: -10px;
+}
+
+footer h4 {
+   text-align: center;
+}
+
+
+
+
+
+
+
+
+@font-face {
+  font-family:Nexa-Heavy;
+  src: url(Nexa-Heavy.ttf);
+}
+
+@font-face {
+  font-family:Nexa-ExtraLight;
+  src: url(Nexa-ExtraLight.ttf);
+}
