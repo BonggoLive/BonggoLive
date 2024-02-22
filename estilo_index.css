@@ -59,6 +59,7 @@ aside{
     font-family: Nexa-ExtraLight;
     padding: 5px;
     margin-left: 20px;
+
 }
 
 
@@ -66,7 +67,7 @@ aside{
 p {
     font-family: sans-serif;
     margin: 10px;
-   
+    
 }
 
  
@@ -146,7 +147,7 @@ p {
 
 
 .contenedor_p_incio {
-	float: left;
+	line-height: 1.5;
 }
 
 .footer_inicio {
@@ -163,9 +164,7 @@ p {
 }
 
 .p_inicio {
-       
-       float: left;
-
+      
 }
 
 .h2_inicio_2{
@@ -282,9 +281,12 @@ p {
 
 footer h4 {
    text-align: center;
+   font-family: sans-serif;
 }
 
-
+footer h3 {
+    font-family: sans-serif;
+}
 
 
 

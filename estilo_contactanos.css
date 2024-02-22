@@ -72,9 +72,11 @@ footer{
 
 footer h3 {
    text-align: center;
+   font-family: sans-serif;
 }
 footer h4 {
    text-align: center;
+   font-family: sans-serif;
 }
 
 
@@ -226,6 +228,7 @@ h2 {
    margin: auto;
    padding: 10px;
    justify-content: center;
+   font-family: sans-serif;
    }
 
 
