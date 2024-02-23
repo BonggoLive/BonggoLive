@@ -78,7 +78,10 @@ footer h4 {
    text-align: center;
    font-family: sans-serif;
 }
-
+footer p {
+   text-align: center;
+   font-family: sans-serif;
+}
 
 .Twitch {
      background-color:#232323 ;
@@ -167,10 +170,17 @@ h2 {
     font-family: Nexa-Heavy;
 
 }
+h3 {
+   text-align: center;
+   color: white;
+   font-family: Nexa-Heavy;
+   font-size: 30px;
+}
 
 .Ubicacion_maps {
    position: relative;
-   left: 347px;
+   display: flex;
+   align-self: center;
    margin: 10px;
    width: 650px;
    height: 350px;
@@ -224,11 +234,12 @@ h2 {
    height: 375px;
    border-radius: 30px;
    filter: blur(3);
-   border: 2px solid #FF5500;
+   border: 2px solid #232323;
    margin: auto;
    padding: 10px;
    justify-content: center;
    font-family: sans-serif;
+   user-select: none;
    }
 
 
@@ -270,7 +281,6 @@ h2 {
 
    .buttonsubmit{
        background-color:transparent;
-      
        display: flex;
        justify-content: center;
        align-items: center;
@@ -302,6 +312,7 @@ textarea:focus {
 .Enviar:hover{
    border:2px solid #DC7633 ;
        box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
+
 }
 
 
@@ -358,6 +369,108 @@ textarea:focus {
 }
 
 
+.barra_inicio {
+     Background:linear-gradient(to left, #000000, #FF5500);
+     height: 2.5px;
+    margin: 25px;
+}
+
+.barra_inicio_2 {
+     Background:linear-gradient(to right, #000000, #FF5500);
+     height: 2.5px;
+    margin: 25px;
+}
+
+
+
+@media only screen and (max-width:749px) {
+
+.contenedorcontactanos{
+   width: 500px;
+   height: 400px;
+}
+
+.Imagenes_redes{
+   flex-direction: column;
+   align-items: center;
+}
+
+}
+
+@media only screen and (max-width:500px) {
+
+.contenedorcontactanos{
+   width: 250px;
+   height: 400px;
+}
+.contenedorcontactanos p {
+   margin-top: -20px;
+
+}
+.inputscontactanos {
+   width: 200px;
+   
+   
+}
+
+.nombreinput{
+   display: flex;
+   justify-content: center;
+}
+
+.email_contenedor{
+   display: flex;
+   justify-content: center;
+}
+
+.textarea {
+  width: 245px;
+  margin-left: -30px;
+}
+
+.buttonsubmit{
+  display: flex;
+   justify-content: center;
+}
+
+.contactanosPE p{
+   margin-top: 2px;
+   padding: 8px 4px;
+}
+
+.p1_form{
+   margin-bottom: -10px;
+}
+.p2_form {
+   margin-bottom: 0px;
+}
+
+.Ubicacion_maps {
+   width: 350px;
+}
+
+.Logochico_footer{
+    width: 70px;
+    height: 65px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @font-face {
   font-family:Nexa-Heavy;
@@ -368,3 +481,12 @@ textarea:focus {
   font-family:Nexa-ExtraLight;
   src: url(Nexa-ExtraLight.ttf);
 }
+
+
+
+
+
+
+
+
+

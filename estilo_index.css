@@ -51,6 +51,7 @@ aside{
  line-height: 2;
  font-size: 50px;
  color: #FF5500;
+ margin: 70px;
 
 
  }
@@ -58,7 +59,7 @@ aside{
 .h2_inicio {
     font-family: Nexa-ExtraLight;
     padding: 5px;
-    margin-left: 20px;
+    margin-left: 45px;
 
 }
 
@@ -117,20 +118,30 @@ p {
      margin: 10px;
      width: 250px; 
      object-fit: cover;
- }    
+     flex-grow: 1;
+  
+ }
+
+
+
 .imagen2_inicio{
      height: 400px;
      min-width: 420px;
      margin: 10px;
      width: 250px;
      object-fit: cover;
-} 
+     flex-grow: 1;
+    
+}
+
+
 .imagen3_inicio{ 
      height: 400px;
      min-width: 420px;
      margin: 10px;
      width: 250px;
      object-fit: cover;
+     flex-grow: 1;
     
 }
 
@@ -141,13 +152,15 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     object-fit: cover;
-    
+    margin: 10px;
    
 }
 
 
+
 .contenedor_p_incio {
 	line-height: 1.5;
+    margin-left: 25px;
 }
 
 .footer_inicio {
@@ -192,6 +205,7 @@ p {
    
 }
 
+
 .Equipos_contenedor p {
     color: white;
     margin-top: 40px;
@@ -203,14 +217,25 @@ p {
     height: 450px;
     width: 350px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;
 }
+.Microfonos_contenedor p {
+    margin-top: 10px;
+}
+
+
 
 .Microfonos_imagen {
     object-fit: contain;
      height: 350px;
      width: 450px;
      object-position: 50px -50px;
+     transition: 0.5s;
 }
+
 
 .Camaras_contenedor {
     background-color:#232323;
@@ -287,6 +312,76 @@ footer h4 {
 footer h3 {
     font-family: sans-serif;
 }
+
+
+
+@media only screen and (max-width:2306px) {
+
+  .h1_inicio {
+ position: relative;
+ text-align: center;
+ font-family: Nexa-Heavy;
+ Font-weight: 10;
+ line-height: 2;
+ font-size: 50px;
+ color: #FF5500;
+ margin: 90px;
+
+
+ }
+}
+
+@media only screen and (max-width:1084px) {
+
+.Microfonos_contenedor {
+   border:10px solid #000000;
+}
+.Camaras_contenedor{
+   border:10px solid #000000;
+}
+.Auriculares_contenedor {
+   border:10px solid #000000;
+}
+
+
+}
+@media only screen and (max-width:869px) {
+
+.Equipos_contenedor{
+    flex-direction: column;
+    align-items:center;
+}
+.Microfonos_contenedor {
+   border:10px solid #000000;
+}
+.Camaras_contenedor{
+   border:10px solid #000000;
+}
+.Auriculares_contenedor {
+   border:10px solid #000000;
+}
+.Logochico_footer{
+    width: 70px;
+    height: 65px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
