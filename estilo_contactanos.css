@@ -1,459 +1,506 @@
 body{
-   background-color: #000000;
-    margin: auto;
-    padding: auto;
-    background-image:url("Logo Bongo bl.png");
+    margin: 0;
+    background-color: #000000;
+    background-image: url("Logo Bongo bl.png");
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
-    position: relative;
-   overflow-x: hidden;
-
 }
 
 
+       .nav_li  {
+          display: inline-block;
+          padding: 10px;
+          text-decoration: none;
+          font-family: Nexa-ExtraLight;
+       }
 
-
-.nav_li  {
-   display: inline-block;
-   padding: 10px;
-   text-decoration: none;
-    font-family: Nexa-ExtraLight;
-
-}
-
-.nav_li i {
-
-    padding: 6px; 
-}
+       .nav_li i {
+         padding: 6px; 
+       }
  
-.nav {
-   height: 80px;
-   margin-top: -15px;
-   display: block;
-   background: linear-gradient(to top, #000000, #151515);
-   user-select: none;
-}
-.nav a {
-   text-decoration: none;
-   color: white;
+       .nav {
+          height: 80px;
+          margin-top: -15px;
+          display: block;
+          background: linear-gradient(to top, #000000, #151515);
+          user-select: none;
+       }
+
+       .nav a {
+          text-decoration: none;
+          color: white;
     
-}
-.nav_li:hover i {
+       }
 
-   color: #000000; 
-}
-.nav_li:hover> a {
-   color: grey;
-}
+       .nav_li:hover i {
+          color: #000000; 
+       }
 
-.nav_ul {
-   box-sizing: content-box;
-   text-align: right;
-    padding: 15px;         
-}
-.Logochico {
-     position: absolute;
-     height: 80px;
-     width: 90px;
-}
+       .nav_li:hover> a {
+          color: grey;
+       }
 
-footer{
-    color: white;
-    background-color: #232323;
-    border-radius: 0.5%;
-    margin-top: 25px ;
-    width: 100%;
+       .nav_ul {
+          box-sizing: content-box;
+          text-align: right;
+          padding: 15px;         
+       }
 
-}
+       .Logochico {
+          position: absolute;
+          height: 80px;
+          width: 90px;
+       }
 
-footer h3 {
-   text-align: center;
-   font-family: sans-serif;
-}
-footer h4 {
-   text-align: center;
-   font-family: sans-serif;
-}
-footer p {
-   text-align: center;
-   font-family: sans-serif;
+       h2 {
+          text-align: center;
+          color: white;
+          font-family: Nexa-Heavy;
+       }
+
+       .contenedorcontactanos{
+          background-color:#232323; 
+          color: white;
+          display: grid;
+          place-items:center;
+          font-size: 20px;
+          width: 910px;
+          height: 375px;
+          border-radius: 30px;
+          filter: blur(3);
+          border: 2px solid #232323;
+          margin: auto;
+          padding: 10px;
+          justify-content: center;
+          font-family: sans-serif;
+          user-select: none;
+       }
+
+       .nombreinput input{
+          color: white;
+          background-color:#58575A ;
+          border-style: none;
+          transition: 0.1s;
+          border-radius: 13px;
+          margin: 5px;
+          padding: 5px 5px 5px 9px;
+          width: 450px;
+       }
+
+       .emailinput{
+          color: white;
+          background-color:#58575A ;
+          border-style: none;
+          border: none;
+          border-radius: 13px;
+          margin: 5px;
+          padding: 5px 5px 5px 9px;
+          transition: 0.1s;
+          width: 450px;
+       }
+   
+       .buttonsubmit input{
+          color: white;
+          background-color:#000000;
+          border-style: none;
+          border: none;
+          border-radius: 20px;
+          padding: 5px;
+          margin: 15px 5px 5px 5px;
+          width: 100%;
+          transition: 0.1s;
+       }
+
+       .buttonsubmit{
+          background-color:transparent;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transition: .1s;
+       }
+   
+       .contenedorcontactanos p{
+          padding: 20px 20px 5px 20px;
+          padding-bottom: 5px;
+          text-align: center;
+       }
+
+       .contenedorinputsNE{
+          margin: auto;
+       }
+
+       input:focus{
+          border: none;
+          box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
+       }
+
+       textarea:focus {
+          border: none ;
+          box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
+       }
+
+       .Enviar:hover{
+          border:0px solid #DC7633 ;
+          box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
+       }
+     
+       .contactanosPE p{
+          font-size: 12.5px;
+          padding: 1px 5px;
+       } 
+
+       .contactanos{
+          margin-top: 0px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          font-size: 12.5px;
+          padding: 1px 5px;
+
+       }
+
+       .contactanos img{
+          width: 85px;
+          height: 75px;
+       }
+
+       .textarea {
+          color: white;
+          background-color:#58575A ;
+          border-style: none;
+          border: none;
+          border-radius: 13px;
+          padding: 5px 5px 5px 9px;
+          transition: 0.1s;
+          width: 453px;
+          margin-left: 4px;
+          height: 65px;
+          resize: none;
+          margin-top: 5px;
+          border-style: none;
+          border: none;
+          border-radius: 13px;
+       }
+
+       .barra_inicio {
+          Background:linear-gradient(to left, #000000, #FF5500);
+          height: 2.5px;
+          margin: 25px;
+       }
+
+       .Twitch {
+          background-color:#232323 ;
+          height: 350px;
+          min-width: 370px;
+          margin: 10px;
+          object-fit: contain;
+          background-image:url(Redes/Twitch.png) ;
+          background-repeat: no-repeat;
+          background-position:center center ;
+          border-radius: 10%;
+          transition: 0.3s;
+       }    
+
+       .YouTube{
+          background-color:#232323 ;
+          height: 350px;
+          min-width: 370px;
+          margin: 10px;
+          object-fit: contain;
+          background-image:url(Redes/YouTube.png) ;
+          background-repeat: no-repeat;
+          background-position: center center;
+          background-size: 720px ;
+          border-radius: 10%;
+          transition: 0.3s;
+       } 
+
+       .Instagram{ 
+          background-color:#232323 ;
+          height: 350px;
+          min-width: 370px;
+          margin: 10px;
+          object-fit: contain;
+          background-image:url(Redes/Instagram.png) ;
+          background-repeat: no-repeat;
+          background-position:center center ;
+          border-radius: 10%;
+          transition: 0.3s;
+       }    
+
+       .Instagram:hover{
+          transition: 0.5s;
+          background-color: rgba(254, 254, 254, 0.4);
+          min-width: 450px;
+       } 
+
+       .YouTube:hover{
+          transition: 0.5s;
+          background-color: rgba(254, 254, 254, 0.4);
+          min-width: 450px;
+       } 
+
+       .Twitch:hover{
+          transition: 0.5s;
+          background-color: rgba(254, 254, 254, 0.4);
+          min-width: 450px;
+       } 
+
+
+       .Imagenes_redes {
+          position: relative;
+          display: flex;
+          justify-content: center;
+          margin: 30px;
+          user-select: none;
+          transition: 0.5s;
+       }  
+      
+       .barra_inicio_2 {
+          Background:linear-gradient(to right, #000000, #FF5500);
+          height: 2.5px;
+          margin: 25px;
+       }
+
+       h3 {
+          text-align: center;
+          color: white;
+          font-family: Nexa-Heavy;
+          font-size: 30px;
+       }
+     
+       aside {
+          display: flex;
+          position: relative;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+       }
+
+       .Ubicacion_maps {
+          position: relative;
+          margin: 20px;
+          width: 650px;
+          height: 350px;
+          border: 6px solid #232323;
+          border-radius: 7px;
+       }
+
+       .mapa {
+          display: flex;
+          position: relative;
+          width: 650px;
+          height: 350px;
+       }
+
+       .Logochico_footer {
+          width: 7%;
+          height: 7%;
+          margin: -10px;
+          margin-top: 5px;
+          margin-bottom: -15px;
+          user-select: none;
+       }
+
+       .footer_logo {
+          text-align: center;
+          width: 1000px;
+          position: relative;
+       }
+
+       footer{
+          color: white;
+          background-color: #232323;
+          border-radius: 0.5%;
+          user-select: none;
+          text-align: center;
+       }
+
+       footer h3 {
+          text-align: center;
+          font-family: sans-serif;
+       }
+    
+       footer h4 {
+          text-align: center;
+          font-family: sans-serif;
+       }
+    
+       footer p {
+          text-align: center;
+          font-family: sans-serif;
+       }
+
+
+
+
+@media only screen and (max-width:1180px) {
+
+
+ .Instagram {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 500px;
+ }
+
+.YouTube {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 600px;
 }
 
 .Twitch {
-     background-color:#232323 ;
-     height: 350px;
-     min-width: 370px;
-     margin: 10px;
-     width: 250px;
-     object-fit: contain;
-     background-image:url(Redes/Twitch.png) ;
-     background-repeat: no-repeat;
-     background-position:center center ;
-     border-radius: 10%;
-     transition: 0.3s;
- }    
-.YouTube{
-     
-     background-color:#232323 ;
-     height: 350px;
-     min-width: 370px;
-     margin: 10px;
-     width: 250px;
-     object-fit: contain;
-     background-image:url(Redes/YouTube.png) ;
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: 720px ;
-     border-radius: 10%;
-     transition: 0.3s;
-} 
-.Instagram{ 
-     background-color:#232323 ;
-     height: 350px;
-     min-width: 370px;
-     margin: 10px;
-     width: 250px;
-     object-fit: contain;
-     background-image:url(Redes/Instagram.png) ;
-     background-repeat: no-repeat;
-     background-position:center center ;
-     border-radius: 10%;
-     transition: 0.3s;
-}    
-
-.Instagram:hover{
-   transition: 0.3s;
-   background-color: rgba(254, 254, 254, 0.4);
-   min-width: 450px;
-
-} 
-.YouTube:hover{
-   transition: 0.3s;
-   background-color: rgba(254, 254, 254, 0.4);
-   min-width: 450px;
-
-   
-} 
-.Twitch:hover{
-   transition: 0.3s;
-   background-color: rgba(254, 254, 254, 0.4);
-   min-width: 450px;
-   
-} 
-
-
-
-
-.Imagenes_redes {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    margin: 30px;
-   user-select: none;
-
-}  
-
-h1 {
-   text-align: center;
-   color: white;
-    font-family: Nexa-Heavy;
-
-}
-
-h2 {
-   text-align: center;
-   color: white;
-    font-family: Nexa-Heavy;
-
-}
-h3 {
-   text-align: center;
-   color: white;
-   font-family: Nexa-Heavy;
-   font-size: 30px;
-}
-
-.Ubicacion_maps {
-   position: relative;
-   display: flex;
-   align-self: center;
-   margin: 10px;
-   width: 650px;
+   min-width: 300px;
    height: 350px;
-   border: 6px solid #232323;
-   border-radius: 7px;
-
+   transition: 0.3s;
+   background-size: 320px;
 }
-
-.boton {
-   color: black;
-   font-family:Nexa-Heavy;
-   width: 200px;
-   height: 30px;
-   border-radius: 5%;
-   background-color: #FF5500 ;
-   text-align: center;
-   border-style: none;
-   margin: 30px;
-   margin-right: auto;
-   margin-left: auto;
-   transition: 0.5s;
-}
-
-.boton:hover {
-    width: 220px;
-   height: 40px;
-   transition: 0.5s;
-}
-.boton:Active {
-    width: 220px;
-   height: 40px;
-   transition: 0.2s;
-   opacity: 0.3;
-}
-
-.mapa {
-    position: relative;
-   width: 650px;
-   height: 350px;
 
 }
 
 
-.contenedorcontactanos{
-   background-color:#232323; 
-   color: white;
-   display: grid;
-   place-items:center;
-   font-size: 20px;
-   width: 910px;
-   height: 375px;
-   border-radius: 30px;
-   filter: blur(3);
-   border: 2px solid #232323;
-   margin: auto;
-   padding: 10px;
-   justify-content: center;
-   font-family: sans-serif;
-   user-select: none;
-   }
 
 
-   .nombreinput input{
-        color: white;
-      background-color:#58575A ;
-      border-style: none;
-      transition: 0.1s;
-        border-radius: 13px;
-        margin: 5px;
-        padding: 5px 5px 5px 9px;
-        width: 450px;
-          
-   }
-
-   .emailinput{
-        color: white;
-        background-color:#58575A ;
-        border-style: none;
-        border: none;
-        border-radius: 13px;
-        margin: 5px;
-        padding: 5px 5px 5px 9px;
-        transition: 0.1s;
-         width: 450px;
-   }
-   .buttonsubmit input{
-        color: white;
-        background-color:#000000   ;
-        border-style: none;
-        border: none;
-        border-radius: 20px;
-        padding: 5px;
-        margin: 15px 5px 5px 5px;
-        width: 100%;
-        transition: 0.1s;
-          
-   }
-
-   .buttonsubmit{
-       background-color:transparent;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       transition: .1s;
-
-       
-      
-   }
-   
-   .contenedorcontactanos p{
-     
-      padding: 20px 20px 5px 20px;
-      padding-bottom: 5px;
-      text-align: center;
-   }
-
-   .contenedorinputsNE{
-      margin: auto;
-   }
-
-input:focus{
-   border:2px solid #DC7633 ;
-       box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
-}
-textarea:focus {
-   border:2px solid #DC7633 ;
-       box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
-}
-.Enviar:hover{
-   border:2px solid #DC7633 ;
-       box-shadow: 0 0 15px #FF5500,0 0 15px #FF5500;
-
-}
-
-
-.contactanosPE p{
-   font-size: 12.5px;
-   padding: 1px 5px;
-}
-
- 
-.contactanos{
-    margin-top: 0px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.contactanos img{
-   width: 85px;
-   height: 75px;
-
-}
-
-.textarea {
-        color: white;
-        background-color:#58575A ;
-        border-style: none;
-        border: none;
-        border-radius: 13px;
-        padding: 5px 5px 5px 9px;
-        transition: 0.1s;
-        width: 453px;
-        margin-left: 4px;
-        height: 65px;
-        resize: none;
-        margin-top: 5px;
-        border-style: none;
-        border: none;
-        border-radius: 13px;
-}
-
-.Logochico_footer {
-   width: 7%;
-   height: 7%;
-   margin: -10px;
-   margin-top: 5px;
-   margin-bottom: -15px;
-   user-select: none;
-}
-
-.footer_logo {
-   text-align: center;
-   margin: -10px;
-}
-
-
-.barra_inicio {
-     Background:linear-gradient(to left, #000000, #FF5500);
-     height: 2.5px;
-    margin: 25px;
-}
-
-.barra_inicio_2 {
-     Background:linear-gradient(to right, #000000, #FF5500);
-     height: 2.5px;
-    margin: 25px;
-}
-
-
-
-@media only screen and (max-width:749px) {
+@media only screen and (max-width:800px) {
 
 .contenedorcontactanos{
    width: 500px;
    height: 400px;
 }
-
+.contenedorcontactanos p {
+  position: relative;
+  te
+}
 .Imagenes_redes{
    flex-direction: column;
    align-items: center;
 }
+ .Instagram {
+   min-width: 500px;
+   height: 450px;
+   transition: 0.3s;
+   background-size: 600px;
+ }
+.Instagram:hover{
+   min-width: 700px;
+   transition: 0.3s;
+ }
+
+.YouTube {
+   min-width: 500px;
+   height: 450px;
+   transition: 0.3s;
+   background-size: 750px;
+}
+.YouTube:hover{
+   min-width: 700px;
+   transition: 0.3s;
+}
+.Twitch {
+   min-width: 500px;
+   height: 450px;
+   transition: 0.3s;
+   background-size: 420px;
+}
+.Twitch:hover{
+   min-width: 700px;
+   transition: 0.3s;
+}
+.Logochico_footer {
+   width: 10%;
+}
 
 }
 
-@media only screen and (max-width:500px) {
+
+@media only screen and (max-width:480px) {
 
 .contenedorcontactanos{
-   width: 250px;
+   width: 380px;
    height: 400px;
 }
 .contenedorcontactanos p {
-   margin-top: -20px;
-
+   padding: 20px 30px 5px 20px;
 }
-.inputscontactanos {
+
+.contenedorinputsNE{
+      width: 300px;   
+}
+.inputscontactanos input{
+   width: 300px;
+}
+.textarea{
+    width: 300px;
+}
+
+.contactanos {
+   margin: 5px;
+   height: 50px;
    width: 200px;
-   
-   
 }
 
-.nombreinput{
-   display: flex;
-   justify-content: center;
-}
-
-.email_contenedor{
-   display: flex;
-   justify-content: center;
-}
-
-.textarea {
-  width: 245px;
-  margin-left: -30px;
-}
-
+ .contactanosPE p{
+    font-size: 11.5px;
+    padding: 1px 5px;
+} 
 .buttonsubmit{
-  display: flex;
-   justify-content: center;
+   transform: translate(10px);
 }
 
-.contactanosPE p{
-   margin-top: 2px;
-   padding: 8px 4px;
+
+.Instagram {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 450px;
+ }
+.Instagram:hover{
+   min-width: 400px;
+   transition: 0.3s;
+ }
+
+.YouTube {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 550px;
+}
+.YouTube:hover{
+   min-width: 400px;
+   transition: 0.3s;
+}
+.Twitch {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 300px;
+}
+.Twitch:hover{
+   min-width: 400px;
+   transition: 0.3s;
 }
 
-.p1_form{
-   margin-bottom: -10px;
-}
-.p2_form {
-   margin-bottom: 0px;
-}
-
-.Ubicacion_maps {
+.Ubicacion_maps{
    width: 350px;
 }
+.mapa{
+   width: 350px;
+}
+.Logochico_footer {
+   width: 20%;
+}
 
-.Logochico_footer{
-    width: 70px;
-    height: 65px;
 }
-}
+
+
+
+
 
 
 

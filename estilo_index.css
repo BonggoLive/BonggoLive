@@ -1,17 +1,52 @@
-
 body{
-	background-color: #000000;
-    background-image:url("Logo Bongo bl.png");
+    margin: 0;
+    background-color: #000000;
+    background-image: url("Logo Bongo bl.png");
     background-repeat: no-repeat;
-    background-position: center ;
+    background-position: center;
     background-attachment: fixed;
     display: flex;
     flex-direction: column;
-    position: static;
-    overflow-x: hidden;
 }
 
 
+.nav_li  {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-family: Nexa-ExtraLight;
+
+}
+
+.nav_li i {
+
+    padding: 6px;   
+}
+ 
+.nav {
+    height: 80px;
+    margin-top: -15px;
+    display: block;
+    background: linear-gradient(to top, #000000, #151515);
+    
+}.nav a {
+    text-decoration: none;
+    color: white;
+    user-select: none;
+}
+.nav_li:hover i {
+
+    color: #000000; 
+}
+.nav_li:hover> a {
+    color: grey;
+}
+
+.nav_ul {
+    box-sizing: content-box;
+    text-align: right;
+    padding: 15px;         
+}
 
 
 
@@ -31,12 +66,7 @@ section{
 	
 }
 
-footer{
-	color: white;
-	background-color: #232323;
-    border-radius: 0.5%;
-    user-select: none;
-}
+
 
 
 aside{
@@ -72,44 +102,6 @@ p {
 }
 
  
-
-.nav_li  {
-	display: inline-block;
-	padding: 10px;
-	text-decoration: none;
-    font-family: Nexa-ExtraLight;
-
-}
-
-.nav_li i {
-
-    padding: 6px;	
-}
- 
-.nav {
-	height: 80px;
-	margin-top: -15px;
-	display: block;
-	background: linear-gradient(to top, #000000, #151515);
-    
-}.nav a {
-	text-decoration: none;
-	color: white;
-    user-select: none;
-}
-.nav_li:hover i {
-
-	color: #000000; 
-}
-.nav_li:hover> a {
-	color: grey;
-}
-
-.nav_ul {
-	box-sizing: content-box;
-	text-align: right;
-    padding: 15px;         
-}
 
 
 .imagen1_inicio {
@@ -196,10 +188,9 @@ p {
 .Equipos_contenedor {
    
    display: flex;
-   justify-content: center;
-   justify-content: space-evenly;
-   margin: 10px;
-   padding: 35px;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 40px;
    color: #FF5500;
    font-family: Nexa-ExtraLight;
    
@@ -220,20 +211,17 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 0.5s;
+     
 }
-.Microfonos_contenedor p {
-    margin-top: 10px;
-}
-
-
-
 .Microfonos_imagen {
     object-fit: contain;
      height: 350px;
-     width: 450px;
+     width: 350px;
      object-position: 50px -50px;
-     transition: 0.5s;
+     
+}
+.Microfonos_contenedor p {
+    margin-top: 10px;
 }
 
 
@@ -242,15 +230,20 @@ p {
     height: 450px;
     width: 350px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
-
-
-
 .Camaras_imagen {
     object-fit: contain;
      height: 350px;
      width: 350px
 }
+.Camaras_contenedor p {
+   margin-top: 10px;
+}
+
 
 
 
@@ -259,15 +252,21 @@ p {
     height: 450px;
     width: 350px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 0.5s;     
 }
 
 .Auriculares_imagen {
     object-fit: contain;
-     height: 550px;
-     width: 550px;
-     object-position: -100px -5px ;
+     height: 350px;
+     width: 350px;
+     object-fit: cover;
 }
-
+.Auriculares_contenedor p {
+   margin-top: 10px;
+}
 
 
 .p_contactate {
@@ -290,6 +289,13 @@ p {
 
 }
 
+footer{
+    color: white;
+    background-color: #232323;
+    border-radius: 0.5%;
+    user-select: none;
+    text-align: center;
+}
 
 .Logochico_footer {
    width: 7%;
@@ -299,10 +305,7 @@ p {
    margin-bottom: -15px;
 }
 
-.footer_logo {
-   text-align: center;
-   margin: -10px;
-}
+
 
 footer h4 {
    text-align: center;
@@ -313,60 +316,91 @@ footer h3 {
     font-family: sans-serif;
 }
 
+@media only screen and (max-width:1370px) {
+    .h1_inicio{
+        margin: 100px;
+    }
+}
 
 
-@media only screen and (max-width:2306px) {
+@media only screen and (max-width:1180px) {
 
-  .h1_inicio {
- position: relative;
- text-align: center;
- font-family: Nexa-Heavy;
- Font-weight: 10;
- line-height: 2;
- font-size: 50px;
- color: #FF5500;
- margin: 90px;
+.Microfonos_contenedor{
+    margin: 5px;
+    
+}
+.Camaras_contenedor{
+    margin: 5px;
+    
+}
+.Auriculares_contenedor{
+    margin: 5px;
+    
+}
 
+
+}
+
+
+@media only screen and (max-width:800px) {
+
+.Equipos_contenedor {
+   flex-direction: column;
+   align-items: center;
+
+}
+.Equipos_contenedor img {
+    transform: translate(102px);
+}
+.Microfonos_contenedor{
+    width: 550px; 
+}
+.Camaras_contenedor{
+    width: 550px;
+}
+.Auriculares_contenedor{
+   width: 550px;
+}
+
+.Logochico_footer {
+   width: 13%;
+     
+}
+ .h1_inicio {
+    margin: 95px;
 
  }
+
 }
 
-@media only screen and (max-width:1084px) {
 
-.Microfonos_contenedor {
-   border:10px solid #000000;
+
+
+@media only screen and (max-width:480px) {
+
+
+.h1_inicio{
+    margin: 140px 60px;
+}
+
+.Equipos_contenedor img {
+    transform: translate(0px);
+}
+.Microfonos_contenedor{
+    width: 350px; 
 }
 .Camaras_contenedor{
-   border:10px solid #000000;
+    width: 350px;
 }
-.Auriculares_contenedor {
-   border:10px solid #000000;
+.Auriculares_contenedor{
+   width: 350px;
 }
-
-
-}
-@media only screen and (max-width:869px) {
-
-.Equipos_contenedor{
-    flex-direction: column;
-    align-items:center;
-}
-.Microfonos_contenedor {
-   border:10px solid #000000;
-}
-.Camaras_contenedor{
-   border:10px solid #000000;
-}
-.Auriculares_contenedor {
-   border:10px solid #000000;
-}
-.Logochico_footer{
-    width: 70px;
-    height: 65px;
-}
+.Logochico_footer {
+   width: 25%;
+     
 }
 
-
+}
 
 
 
