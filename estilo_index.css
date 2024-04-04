@@ -29,7 +29,8 @@ body{
     display: block;
     background: linear-gradient(to top, #000000, #151515);
     
-}.nav a {
+}
+.nav a {
     text-decoration: none;
     color: white;
     user-select: none;
