@@ -82,9 +82,7 @@ aside{
  line-height: 2;
  font-size: 50px;
  color: #FF5500;
- margin: 70px;
-
-
+ margin: 80px;
  }
 
 .h2_inicio {
@@ -218,7 +216,7 @@ p {
     object-fit: contain;
      height: 350px;
      width: 350px;
-     object-position: 50px -50px;
+     object-position: 140px 0px;
      
 }
 .Microfonos_contenedor p {
