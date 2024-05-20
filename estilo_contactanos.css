@@ -76,7 +76,7 @@ body{
           padding: 10px;
           justify-content: center;
           font-family: sans-serif;
-          user-select: none;
+          
        }
 
        .nombreinput input{
@@ -126,6 +126,7 @@ body{
           padding: 20px 20px 5px 20px;
           padding-bottom: 5px;
           text-align: center;
+          
        }
 
        .contenedorinputsNE{
@@ -192,6 +193,23 @@ body{
           margin: 25px;
        }
 
+
+
+
+       .Kick {
+         background-color:#232323 ;
+          height: 350px;
+          min-width: 370px;
+          margin: 10px;
+          object-fit: contain;
+          background-image:url(Redes/Kick.png) ;
+          background-repeat: no-repeat;
+          background-position:center center ;
+          border-radius: 10%;
+          transition: 0.3s;
+          background-size: 300px;
+       }
+
        .Twitch {
           background-color:#232323 ;
           height: 350px;
@@ -231,33 +249,57 @@ body{
           border-radius: 10%;
           transition: 0.3s;
        }    
-
+       
+       .TikTok{ 
+         background-color:#232323 ;
+         height: 350px;
+         min-width: 370px;
+         margin: 10px;
+         object-fit: contain;
+         background-image:url(Redes/TikTok.png);
+         background-size: 340px;
+         background-repeat: no-repeat;
+         background-position:center center ;
+         border-radius: 10%;
+         transition: 0.3s;
+      }    
+      .TikTok:hover{
+         transition: 0.5s;
+         background-color: rgba(254, 254, 254, 0.4);
+        
+      } 
        .Instagram:hover{
           transition: 0.5s;
           background-color: rgba(254, 254, 254, 0.4);
-          min-width: 450px;
+         
        } 
 
        .YouTube:hover{
           transition: 0.5s;
           background-color: rgba(254, 254, 254, 0.4);
-          min-width: 450px;
+          
        } 
 
        .Twitch:hover{
           transition: 0.5s;
           background-color: rgba(254, 254, 254, 0.4);
-          min-width: 450px;
+          
        } 
-
+       .Kick:hover{
+         transition: 0.5s;
+          background-color: rgba(254, 254, 254, 0.4);
+          
+       }
 
        .Imagenes_redes {
+         
           position: relative;
-          display: flex;
-          justify-content: center;
+          display: inline-flex;
+          flex-wrap: wrap;
+          justify-content: space-evenly;
           margin: 30px;
           user-select: none;
-          transition: 0.5s;
+         
        }  
       
        .barra_inicio_2 {
@@ -347,6 +389,12 @@ body{
    transition: 0.3s;
    background-size: 500px;
  }
+ .TikTok {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 300px;
+ }
 
 .YouTube {
    min-width: 300px;
@@ -361,7 +409,12 @@ body{
    transition: 0.3s;
    background-size: 320px;
 }
-
+.Kick {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 320px;
+}
 }
 
 
@@ -375,47 +428,66 @@ body{
 }
 .contenedorcontactanos p {
   position: relative;
-  te
+  
 }
-.Imagenes_redes{
-   flex-direction: column;
-   align-items: center;
-}
+
  .Instagram {
-   min-width: 500px;
-   height: 450px;
-   transition: 0.3s;
-   background-size: 600px;
- }
-.Instagram:hover{
-   min-width: 700px;
-   transition: 0.3s;
+   min-width:500px;
+   height:450px;
+   transition:0.3s;
+   background-size:600px;
  }
 
+     .Instagram:hover{
+       min-width: 700px;
+       transition: 0.3s;
+                }
+ .TikTok {
+   min-width:500px;
+   height:450px;
+   transition:0.3s;
+   background-size:400px;
+ }
+     .TikTok:hover{
+       min-width: 700px;
+       transition: 0.3s;
+                }
 .YouTube {
    min-width: 500px;
    height: 450px;
    transition: 0.3s;
    background-size: 750px;
 }
-.YouTube:hover{
-   min-width: 700px;
-   transition: 0.3s;
-}
+     .YouTube:hover{
+       min-width: 700px;
+       transition: 0.3s;
+                }
 .Twitch {
    min-width: 500px;
    height: 450px;
    transition: 0.3s;
    background-size: 420px;
 }
-.Twitch:hover{
+     .Twitch:hover{
    min-width: 700px;
    transition: 0.3s;
+                }
+
+.Kick{
+   min-width: 500px;
+   height: 450px;
+   transition: 0.3s;
+   background-size: 420px;
 }
+
+     .Kick:hover{
+       min-width: 700px;
+       transition: 0.3s;
+                }
+
 .Logochico_footer {
    width: 10%;
 }
-
 }
 
 
@@ -461,7 +533,7 @@ body{
    background-size: 450px;
  }
 .Instagram:hover{
-   min-width: 400px;
+   min-width: 350px;
    transition: 0.3s;
  }
 
@@ -472,7 +544,7 @@ body{
    background-size: 550px;
 }
 .YouTube:hover{
-   min-width: 400px;
+   min-width: 350px;
    transition: 0.3s;
 }
 .Twitch {
@@ -482,10 +554,19 @@ body{
    background-size: 300px;
 }
 .Twitch:hover{
-   min-width: 400px;
+   min-width: 350px;
    transition: 0.3s;
 }
-
+.Kick {
+   min-width: 300px;
+   height: 350px;
+   transition: 0.3s;
+   background-size: 300px;
+}
+.Kick:hover{
+   min-width: 350px;
+   transition: 0.3s;
+}
 .Ubicacion_maps{
    width: 350px;
 }

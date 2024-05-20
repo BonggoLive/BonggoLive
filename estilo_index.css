@@ -77,19 +77,20 @@ aside{
  .h1_inicio {
  position: relative;
  text-align: center;
- font-family: Nexa-Heavy;
+ font-family: Retosta;
  Font-weight: 10;
  line-height: 2;
  font-size: 50px;
- color: #FF5500;
+ letter-spacing: 3px;
+ color: #ff7c00;
  margin: 80px;
  }
 
 .h2_inicio {
-    font-family: Nexa-ExtraLight;
+    font-family: Nexa-Heavy;
     padding: 5px;
     margin-left: 45px;
-
+   font-weight: 100;
 }
 
 
@@ -167,9 +168,7 @@ p {
     text-align: center;
 }
 
-.p_inicio {
-      
-}
+
 
 .h2_inicio_2{
     text-align: center;
@@ -178,7 +177,7 @@ p {
 }
 
 .barra_inicio {
-     Background:linear-gradient(to left, #000000, #FF5500);
+     Background:linear-gradient(to left, #000000, #ff7c00);
      height: 2.5px;
     
 }
@@ -190,7 +189,7 @@ p {
    flex-direction: row;
    justify-content: space-around;
    margin: 40px;
-   color: #FF5500;
+   color: #ff7c00;
    font-family: Nexa-ExtraLight;
    
 }
@@ -272,11 +271,11 @@ p {
     text-align: center;
     margin: 50px;
     padding: 10px;
-    background-color: #FF5500;
+    background-color: #ff7c00;
     
 }
 
-.p_contactate: hover> a {
+.p_contactate:hover> a {
      color: white;
      font-size: 18px;
 
@@ -424,7 +423,10 @@ footer h3 {
 
 
 
-
+@font-face {
+    font-family:Retosta;
+    src: url(Retosta.otf);
+}
 
 @font-face {
   font-family:Nexa-Heavy;
